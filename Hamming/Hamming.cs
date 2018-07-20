@@ -20,7 +20,7 @@ namespace Hamming
 
             else if (original.Length != current.Length)
                 {
-                throw new System.ArgumentException("Hamming Distance can only be calculated over strings of equal length");
+                throw new System.ArgumentException("Hamming Distance can only be calculated over strings of equal length");    //throws exception
                 }
 
             else
